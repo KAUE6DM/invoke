@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte do google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,400;0,600;1,100&display=swap"
+        rel="stylesheet">
+    <title>Invoke Tecnologias</title>
+</head>
+
+<body>
+    <nav>
+        <img src="imagens-master/Black and Grey Clean Modern Minimalist Creative Technology Logo (1).png"
+            alt="Logo Invoke Tecnologias">
+        <h1>Invoke Tecnologias</h1>
+
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Estamos sempre prontos para fazer o seu sucesso acontecer</h2>
+        </div>
+        <div class="header-img">
+            <img src="imagens-master/Black and Grey Clean Modern Minimalist Creative Technology Logo.gif"
+                alt="Animação do Cabeçalho">
+        </div>
+    </header>
+    <section>
+        <article class="apresentacao">
+            <div class="conte-conosco">
+                <h3>em qualquer lugar pode contar conosco</h3>
+                <img src="imagens-master/Black and Grey Clean Modern Minimalist Creative Technology Logo.gif"
+                    alt="Animação">
+            </div>
+            <div class="filosofia">
+                <p>A nossa filosofia é levar o crescimento a sua empresa de maneira estruturada</p>
+            </div>
+        </article>
+        <div class="barra"></div>
+        <article class="produtos">
+            <h3>Oferecemos os melhores serviços do mercado de tecnologia com garantia de satisfação
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem in, expedita iste assumenda ullam
+                labore soluta, saepe explicabo amet voluptatem veritatis quisquam nulla magnam iusto. Deleniti maxime
+                nisi soluta repellat!</p>
+            <div class="banners">
+                <div class="banner">
+                    <p>cyber segurança</p>
+                    <input type="submit" value="SAIBA MAIS" class="btn">
+                </div>
+                <div class="banner">
+                    <p>assistencia imediata</p>
+                    <input type="submit" value="SAIBA MAIS" class="btn">
+                </div>
+                <div class="banner">
+                    <p>hospedagem dedicada</p>
+                    <input type="submit" value="SAIBA MAIS" class="btn">
+                </div>
+            </div>
+            <div class="barra"></div>
+            <div class="projetos">
+                <h3>Alguns dos nossos projetos</h3>
+                <div class="banners-projetos">
+                    <div class="banner-projeto">
+                        <img src="imagens-master/medicina atendimento gestão.png" alt="Gestão de medicina">
+                    </div>
+                    <div class="banner-projeto">
+                        <img src="imagens-master/Post do Instagram Gestão de Tempo Colorido Azul.png"
+                            alt="Gestão de pessoas">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <h4>converse com nossos especialistas</h4>
+        <div class="formulario-fixo">
+
+            contato direto
+            <p>
+                <a href="https://api.whatsapp.com/send?phone5583987657531&text=Olá preciso de um chamado" target="_blank
+                ">whatsapp</a>
+            </p>
+            <p>(83)987657531</p>
+            <p>
+                <a href="mailto:marcioalex586@gmail.com? subject=Olá preciso de um chamado&cc=adao@gmail.com&cc=stheffany@gmail.com&body=Tenho interesse em"
+                    targent=_blank>email</a>
+            </p>
+            <p>marcioalex586@gmail.com</p>
+            <p>
+                <a href="https://www.instagram.com/marcioalex586/" target="_blank">Rede social</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(151, 151, 151);
+}
+body{
+background-color: rgba(22, 38, 110);
+background: linear-gradient(90deg, rgba(7, 45, 128)0%, rgba(3, 153, 240) 47%, rgba(0, 212 255, 1) 100%);
+
+}
+nav{
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+}
+nav img{
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(2, 0, 36);
+    margin: 10px;
+}
+nav h1{
+    font-size: 20px;
+}
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.header-content h2{
+        font-size: 50px;
+}
+
+.header-img img{
+    height: 400px;
+    opacity: .7;
+    border-radius: 34% 66% 74% 26% / 79% 29% 71% 21% ;
+    animation: movimento 15s infinite alternate;
+}
+@keyframes movimento {
+    0%, 100%{
+        border-radius: 34% 66% 74% 26% / 79% 43% 51% 30% ;
+        box-shadow: 0px 0px 100px rgb(0, 151, 252);
+    }50%{
+        border-radius: 34% 66% 74% 26% / 83% 38% 60% 29% ;
+        box-shadow: 0px 0px 500px rgb(0, 150, 250);
+    }
+}
+section{
+    width: 80%;   
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+.conte-conosco{
+    width: 40%;
+}
+.conte-conosco h3{
+font-size: 35px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 1px;
+}
+.conte-conosco img{
+    height: 70%;
+    width: 100%;
+    border-radius: 55% 45% 99% 1% / 93% 36% 64% 7% ;
+}
+.filosofia p{
+    width: 60px;
+}
+.filosofia p{
+    font-size: 50px;
+    padding: 10px 50px;
+    line-height: 45px;
+}
+.barra{
+    height: 100px;
+    width: 80%;
+    margin: 100px auto;
+    background-color: rgb(209, 209, 209);
+}
+.produtos h3{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px 50px;
+    border: 1px solid;
+}
+.produtos p{
+    font-size: 20px;
+    margin-top: 30px;
+    text-indent: 50px;
+}
+.produtos .banners{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.banner{
+    color: rgb(25, 12, 146) ;
+}
+.banner .btn{
+    color: black;
+}
